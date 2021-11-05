@@ -130,3 +130,22 @@ article p {
   background-size: cover;
   filter: invert(100%);
 }
+
+aside article:not(.first) {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6px;
+  border-top: 1px solid #d8d8d8;
+}
+
+aside article:not(.first) .imgHolder {
+  aspect-ratio: 4/4;
+  width: 77px;
+  height: 77px;
+}
+
+aside article:not(.first) p {
+  padding: 10px;
+  font-size: 12px;
+  line-height: 20px;
+}
